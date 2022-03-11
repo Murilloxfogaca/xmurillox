@@ -14,7 +14,15 @@ function Slide() {
     return (
         <>
          <Swiper
-        slidesPerView={4}
+         breakpoints={{
+            640: {
+              slidesPerView: 1,
+            },
+            // when window width is >= 768px
+            768: {
+              slidesPerView: 3,
+            },
+          }}
         spaceBetween={5}
         centeredSlides={true}
         pagination={{
