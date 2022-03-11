@@ -66,6 +66,8 @@
   }
 }
 
+
+@media (min-width: 600px) {
 /* linkfive */
 .link{
   position: relative;
@@ -90,4 +92,5 @@
 .link:before {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
 }
