@@ -27,19 +27,19 @@ export default function Home() {
               <h1 className={styles.title}>Murillo Fogaça</h1>
 
               <p className={styles.description}>
-                Front-End: HTML, CSS, SCSS, JavaScript / React, React Hooks, Rxjs, Bootstrap and Materials UI
+                Front-End: HTML5, CSS3, SCSS, React, Next.js, Wordpress, Bootstrap, Tailwind, Materials UI and Design System Create
                 <br />
-                Back-End: PHP, SQL, MySQL / Docker using docker compose, Javascript with Rest, Express and Node
+                Back-End: PHP, SQL, MySQL / Docker using docker compose, Api Rest
                 <br />
-                Experiences in CMS: Wordpress (Senior), Moodle, Joomla, Drupal and Vtex.
+                Experiences in CMS: Wordpress (Senior), Moodle, Drupal and Joomla.
                 <br />
-                Experiences in Frameworks: Codeigniter and Laravel
+                Experiences in Frameworks: Next.js, Laravel and Codeigniter
                 <br />
-                Mobile: Ionic and Flutter (Basic)
+                Mobile: Flutter   (Basic)
                 <br />
-                Others: Analysis SEO, SemRush, Analytics, Adobe Photoshop, Figma
+                Others: Analysis SEO, SemRush, Analytics, Adobe Photoshop/XD and Figma
                 <br />
-                Experience with agile process, scrum and project management.
+                Experience with Agile process, Scrum and project management.
                 <br className='mt-3' />
                 <Link  href="/projects"><a className={styles.link}>My projects</a></Link>
                 <br />
