@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Card(props) {
     return (
-        <div className="px-3 py-10">
+        <div className="px-3 py-1">
             <div className="max-w-md py-5 px-8 bg-white shadow-lg rounded-lg my-4" id={props.type}>
                 <h2 className="text-gray-800 text-2xl font-bold">{props.title}</h2>
                 <h3 className="text-gray-800 mt-1 text-1xl font-semibold">
