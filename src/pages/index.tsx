@@ -28,23 +28,28 @@ export default function Home() {
 
               <p className={styles.description}>
                 Front-End: HTML5, CSS3, SCSS, React, Next.js, Wordpress, Bootstrap, Tailwind, Materials UI and Design System Create
-                <br />
+              </p>
+                <p>
                 Back-End: PHP, SQL, MySQL / Docker using docker compose, Api Rest
-                <br />
+                </p>
+                <p>
                 Experiences in CMS: Wordpress (Senior), Moodle, Drupal and Joomla.
-                <br />
+                </p>
+                <p>
                 Experiences in Frameworks: Next.js, Laravel and Codeigniter
-                <br />
+                </p>
+                <p>
                 Mobile: Flutter   (Basic)
-                <br />
+                </p>
+                <p>
                 Others: Analysis SEO, SemRush, Analytics, Adobe Photoshop/XD and Figma
-                <br />
+                </p>
+                <p>
                 Experience with Agile process, Scrum and project management.
-                <br className='mt-3' />
+                </p>
+                <p>
                 <Link  href="/projects"><a className={styles.link}>My projects</a></Link>
-                <br />
-                <Link href="/certificates"><a className={styles.link} >My certificates</a></Link>
-                <br className='mt-3' />
+                </p>
                 <Link href="https://github.com/Murilloxfogaca">
                   <a className='mt-4 mr-2' target="_blank" >
                     <Image
@@ -76,9 +81,26 @@ export default function Home() {
                     height={30}
                     className={styles.iconemail}
                   /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
                 </a>
                 </Link>
-              </p>
             </div>
             <div className='px-5 py-3'>
               <Image 
