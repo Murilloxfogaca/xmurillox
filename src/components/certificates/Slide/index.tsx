@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-import styles from '../../../styles/Certificates.module.css'
+import React from "react";
 import Ref from './Card'
 import styled from "styled-components";
 

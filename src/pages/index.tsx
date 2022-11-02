@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import styles from '../styles/Home.module.css'
-import mypic from '../uploads/image.jpg'
+import mypic from '../uploads/mypic.png'
 import linkedin from '../uploads/linkedin.png'
 import github from '../uploads/github.png'
 import mail from '../uploads/mail.png'
@@ -29,26 +29,27 @@ export default function Home() {
               <p className={styles.description}>
                 Front-End: HTML5, CSS3, SCSS, React, Next.js, Wordpress, Bootstrap, Tailwind, Materials UI and Design System Create
               </p>
-                <p>
+                <p className='my-2'>
                 Back-End: PHP, SQL, MySQL / Docker using docker compose, Api Rest
                 </p>
-                <p>
+                <p  className='my-2'>
+ 
                 Experiences in CMS: Wordpress (Senior), Moodle, Drupal and Joomla.
                 </p>
-                <p>
+                <p  className='my-2'>
                 Experiences in Frameworks: Next.js, Laravel and Codeigniter
                 </p>
-                <p>
+                <p className='my-2'>
                 Mobile: Flutter   (Basic)
                 </p>
-                <p>
+                <p className='my-2'>
                 Others: Analysis SEO, SemRush, Analytics, Adobe Photoshop/XD and Figma
                 </p>
-                <p>
+                <p className='my-2'>
                 Experience with Agile process, Scrum and project management.
                 </p>
-                <p>
-                <Link  href="/projects"><a className={styles.link}>My projects</a></Link>
+                <p className='mt-2 mb-5'>
+                  <Link  href="/projects"><a className={styles.link}>My projects</a></Link>
                 </p>
                 <Link href="https://github.com/Murilloxfogaca">
                   <a className='mt-4 mr-2' target="_blank" >
@@ -83,22 +84,6 @@ export default function Home() {
                   /> 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
                 </a>
                 </Link>
             </div>

@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-color: #b8b8b8;
+  background-color: #eee;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -20,7 +20,6 @@ a {
   box-sizing: border-box;
 }
 
-
 .swiper .swiper-pagination-bullet {
-	background-color: #000;
+  background-color: #000;
 }

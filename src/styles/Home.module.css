@@ -25,17 +25,16 @@
   font-weight: 700;
 }
 
-
 .description br {
-	display: block;
-	width: 100%;
-	margin-bottom: 1em;
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
 .description {
-	margin: 3rem 0;
-	line-height: 1.2;
-	font-size: 1rem;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .code {
@@ -47,7 +46,7 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.mypic{
+.mypic {
   border-radius: 50%;
   max-width: 150px;
 }
@@ -56,8 +55,8 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-.iconemail{
-	top: 6px !important;
+.iconemail {
+  top: 6px !important;
 }
 
 @media (max-width: 600px) {
@@ -66,31 +65,31 @@
   }
 }
 
-
 @media (min-width: 600px) {
-/* linkfive */
-.link{
-  position: relative;
-}
-.link:before {
-  content: '';
-  border-bottom: solid 3px white;
-  position: absolute;
-  bottom: -5px; left: 0;
-  width: 100%;
-}
+  /* linkfive */
+  .link {
+    position: relative;
+  }
+  .link:before {
+    content: "";
+    border-bottom: solid 3px white;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+  }
 
-.link:hover:before {
-  -webkit-transform: scaleY(4);
-     -moz-transform: scaleY(4);
-      -ms-transform: scaleY(4);
-       -o-transform: scaleY(4);
-          transform: scaleY(4);
-  border-bottom: solid thin #5CAAEF;
-}
+  .link:hover:before {
+    -webkit-transform: scaleY(4);
+    -moz-transform: scaleY(4);
+    -ms-transform: scaleY(4);
+    -o-transform: scaleY(4);
+    transform: scaleY(4);
+    border-bottom: solid thin #5caaef;
+  }
 
-.link:before {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
+  .link:before {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
 }
