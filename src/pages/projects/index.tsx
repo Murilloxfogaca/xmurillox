@@ -14,7 +14,6 @@ export default function Projects() {
 
       <main className={styles.main}>
         <div className="container py-5">
-          <h1 className="text-5xl font-bold text-center mb-5">Projects</h1>
           <div className={styles.row}>
             <Ref
               url="https://insidea5.com.br/"
