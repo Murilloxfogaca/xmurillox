@@ -50,11 +50,6 @@ export default function Home() {
               <p className="my-2">
                 Experience with Agile process, Scrum and project management.
               </p>
-              <p className="mt-2 mb-5">
-                <Link href="/projects">
-                  <a className={styles.link}>My projects</a>
-                </Link>
-              </p>
               <Link href="https://github.com/Murilloxfogaca">
                 <a className="mt-4 mr-2" target="_blank">
                   <Image
