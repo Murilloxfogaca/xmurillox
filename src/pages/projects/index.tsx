@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "../../shared/styles/Projects.module.css";
 import Ref from "../../shared/components/projects/Card";
-import Link from "next/link";
 import Makeitstop from "../../assets/uploads/makeitstop.jpg";
 import Rubrica from "../../assets/uploads/rubrica.jpg";
 import Salaodolivro from "../../assets/uploads/salaodolivro.jpg";
