@@ -27,29 +27,30 @@ export default function Home() {
               <h1 className={styles.title}>Murillo Fogaça</h1>
               <h2 className="text-3xl font-bold mb-4">Front-End Web | Mobile</h2>
 
-              <p className="my-2">
+              <p className="my-3">
                 <b>Front-End:</b> HTML5, CSS3, SCSS, React, Next.js, Wordpress,
                 Bootstrap, Tailwind, Materials UI and Design System Create
               </p>
-              <p className="my-2">
+              <p className="my-3">
                 <b>Back-End:</b> PHP, SQL, MySQL / Docker using docker compose, Api
                 Rest
               </p>
-              <p className="my-2">
+              <p className="my-3">
                 <b>Experiences in CMS:</b> Wordpress (Senior), Moodle, Drupal and
                 Joomla.
               </p>
-              <p className="my-2">
+              <p className="my-3">
                 <b>Experiences in Frameworks:</b> Next.js, Laravel and Codeigniter
               </p>
-              <p className="my-2"><b>Mobile:</b> Flutter (Basic)</p>
-              <p className="my-2">
+              <p className="my-3"><b>Mobile:</b> Flutter (Basic)</p>
+              <p className="my-3">
                 <b>Others:</b> Analysis SEO, SemRush, Analytics, Adobe Photoshop/XD and
                 Figma
               </p>
-              <p className="mt-2 mb-3">
-                Experience with Agile process, Scrum and project management.
+              <p className="my-3">
+              <b>Experience with Agile process, Scrum and project management.</b>
               </p>
+              <p className="mt-5">
               <Link href="https://github.com/Murilloxfogaca">
                 <a className="mt-4 mr-2" target="_blank">
                   <Image
@@ -83,6 +84,7 @@ export default function Home() {
                   />
                 </a>
               </Link>
+              </p>
             </div>
             <div className="px-5 py-3">
               <Image
